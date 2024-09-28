@@ -64,7 +64,7 @@ form textarea {
 }
 
 form button {
-  background: honeydew;
+  background: rgb(212, 78, 33);
   color:gray;
   border: 2px solid black;
   padding: 1rem;
@@ -72,7 +72,7 @@ form button {
 }
 
 form button:hover {
-  background: red; 
+  background: rgb(81, 128, 0); 
 }
 
 .site-footer {
