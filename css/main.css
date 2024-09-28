@@ -21,7 +21,7 @@ h6 {
 }
 
 img {
-  width: 100%;
+  width: 30%;
 }
 
 .main-nav ul {
@@ -30,6 +30,7 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  background-color: #369;
 }
 
 .main-nav ul li {
@@ -39,9 +40,10 @@ img {
 
 .main-nav ul li a {
   display: block;
-  color: inherit;
+  color: burlywood;
   text-decoration: none;
   font-size: 1.25rem;
+  padding: 1rem;
 }
 
 form input,
@@ -50,6 +52,8 @@ form textarea {
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  border: 1px solid black;
+  border-radius: 3px;
 }
 
 form textarea {
@@ -60,12 +64,27 @@ form textarea {
 }
 
 form button {
-  background: none;
+  background: honeydew;
+  color:gray;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
 }
 
+form button:hover {
+  background: red; 
+}
+
 .site-footer {
-  padding: 2rem 0;
+  background-color: #369; 
+  text-align: center; 
+  padding: 2rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -5px;
+  background: #000;
+  color: #fff;
+  padding: 7px;
 }
