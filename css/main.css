@@ -61,16 +61,13 @@ form textarea {
 }
 
 form button {
-  background: rgb(212, 78, 33);
+  background: rgb(54, 33, 212);
   color:gray;
   border: 2px solid black;
   padding: 1rem;
   text-transform: uppercase;
 }
 
-form button:hover {
-  background: rgb(81, 128, 0); 
-}
 
 .site-footer {
   background-color: #369; 
@@ -81,7 +78,8 @@ form button:hover {
 .skip-link {
   position: absolute;
   top: -5px;
-  background: #000;
+  background: #220499;
   color: #fff;
   padding: 7px;
+  transition: top 0.3s ease;
 }
