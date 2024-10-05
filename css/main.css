@@ -72,17 +72,24 @@ form button {
 
 
 .site-footer {
-  background-color: #369; 
+  background-color: #036; 
   text-align: center; 
   padding: 2rem;
 }
 
+/* improved skip link  */
 .skip-link {
   position: absolute;
   top: -5px;
-  background: #220499;
-  color: #fff;
-  padding: 7px;
+  right:10px;
+  background: #04C;
+  color: white;
+  padding: 5px 10px;
+  font-size:1rem;
   transition: top 0.3s ease;
+  transform: translateY(100%);
 }
 
+.skip-link:focus{
+  top:10px;
+}
